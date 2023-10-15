@@ -1,10 +1,12 @@
 (function() {
     // image slideshow
-    var slides = [
-        "https://i0.wp.com/wheatlandwizards.org/wp-content/uploads/2021/07/308A6286-1-scaled.jpg?fit=2560%2C1111&ssl=1",
-        "https://simplifaster.com/wp-content/uploads/2019/05/daryrl-2.jpg",
-        "https://simplifaster.com/wp-content/uploads/2019/05/Daryyl-Wong-Court.jpg",
-        "https://simplifaster.com/wp-content/uploads/2019/05/Darryl-Wong-Action.jpg"
+    var slides = [        
+        "https://i.ibb.co/y6sbNBR/28c57756c2565b287584d59a3b06cf9e.jpg",
+        "https://i.ibb.co/dk3WjxT/IMG-1080.jpg",
+        "https://i.ibb.co/2nZDxYg/IMG-1225.jpg",
+        "https://i.ibb.co/ngRnnWM/IMG-6280.jpg",        
+        "https://i.ibb.co/fvJMjL8/IMG-6277.jpg",
+        "https://i.ibb.co/zPJxxB8/IMG-6286.jpg"
     ];
 
     var current = 0;

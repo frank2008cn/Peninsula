@@ -349,10 +349,12 @@ blockquote .author {
   margin-bottom: 20px;
 }
 
-.intro img {
+.intro .image {
   float: left;
   width: 33%;
-  background: #f1f1f1;  
+  aspect-ratio: 16 / 9;
+  background: #f1f1f1 center;  
+  background-size: cover;
   border-radius: 8px;
 }
 
