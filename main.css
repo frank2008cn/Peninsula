@@ -84,22 +84,6 @@ a {
   line-height:1.33;
 }
 
-blockquote {
-  background: #f3f3f3;
-  margin: 0;
-  padding: 40px;
-  font-size: 22px;
-  font-family: Poppins, sans-serif;
-  font-weight: 500;
-  margin-top: 8 0px;
-}
-blockquote .author {
-  text-align: right;
-  margin-top: 20px;
-  font-size: 16px;
-  font-weight: 700;
-}
-
 .links {
   float: right;
 }
@@ -150,9 +134,18 @@ blockquote .author {
   font-size: 20px;
   font-weight: 700;
   float: left;
+  line-height: 80px;
+  height: 80px;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
 }
 
 .logo a {
+  display: block;
   color: white;
 }
 
@@ -371,4 +364,122 @@ blockquote .author {
   #slideshow {
     overflow: hidden;
   }
+}
+
+.about h3, .about h4 {
+  text-align: center;
+}
+
+.about h3 {
+  font-size:36px;
+  font-weight: medium;
+}
+
+.about h4 {
+  font-size:28px;
+}
+
+.member {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 50%;
+  margin: 10px 16px 60px;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 30px rgba(0,0,0,.3);
+  max-width: 420px;
+}
+
+.card p {
+  padding: 10px 0;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+.avatar {
+  width: 100%;
+  padding-bottom: 120%;
+}
+
+.member-2 .card {
+  width: 82%;
+  max-width: none;
+  margin: 10px auto 60px;
+  aspect-ratio: 2;
+}
+
+.member-2 blockquote {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.member-2 .avatar {
+  width: 400px;
+  padding-bottom: 50%;
+  margin-right: 20px;
+  float:left;
+}
+
+.member-2 .intro {
+  overflow: hidden;
+  padding-right: 16px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.avatar-0 {
+  background: url(https://i.ibb.co/mzBZPGB/IMG-9570.jpg) 50% 20% no-repeat;
+  background-size: 100%;
+}
+
+.avatar-1 {
+  background: url(https://i.ibb.co/FxNFN7x/IMG-9576.jpg) 60% 0% no-repeat;
+  background-size: 105%;
+}
+
+.avatar-2 {
+  background: url(https://i.ibb.co/JjJKfn9/65a8cecbbfff9001a2fad0cc14730e76.jpg) 50% 68% no-repeat;
+  background-size: 100%;
+}
+
+.avatar-3 {
+  background: url(https://i.ibb.co/LdbVQNQ/f3378e6698fe765c3bbf6ef966dcab9d.jpg) 50% 0% no-repeat;
+  background-size: 100%;
+}
+
+.avatar-15 {
+  background: url(https://i.ibb.co/FJYTSN1/Avanti.jpg) 50% 50% no-repeat;
+  background-size: 100%;
+}
+
+.avatar-13 {
+  background: url(https://i.ibb.co/vjvHTrK/Isaac.jpg) 50% 50% no-repeat;
+  background-size: 112%;
+}
+.avatar-12 {
+  background: url(https://i.ibb.co/9YnWsd4/James.jpg) 50% 50% no-repeat;
+  background-size: 100%;
+}
+
+.avatar-11 {
+  background: url(https://i.ibb.co/Jk9r2Sn/Jonathan.png) 50% 50% no-repeat;
+  background-size: 130%;
+}
+
+.avatar-14 {
+  background: url(https://i.ibb.co/y6sbNBR/28c57756c2565b287584d59a3b06cf9e.jpg) 85% 40% no-repeat;
+  background-size: 350%;
 }
