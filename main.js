@@ -6,7 +6,10 @@
         "https://i.ibb.co/2nZDxYg/IMG-1225.jpg",
         "https://i.ibb.co/ngRnnWM/IMG-6280.jpg",        
         "https://i.ibb.co/fvJMjL8/IMG-6277.jpg",
-        "https://i.ibb.co/zPJxxB8/IMG-6286.jpg"
+        "https://i.ibb.co/zPJxxB8/IMG-6286.jpg",
+        "https://i.ibb.co/SxbG1k8/IMG-5421.jpg",
+        "https://i.ibb.co/gt4xLy9/IMG-1156.jpg",
+        "https://i.ibb.co/9qkwZtQ/IMG-4897.jpg"
     ];
 
     var current = 0;
@@ -21,7 +24,7 @@
             var x = i == count - 1 ? -width: width * i;
             var cls = i == 0 ? " active" : "";
             html += '<div style="transform:translate3d(' + x + 'px, 0, 0)" id="slide-' + i + '" class="slide' 
-                + cls + '" onclick="slideTo(' + i + ')"><div class="slide-image" style="background-image:url(' + slides[i] 
+                + cls + '" onclick="slideTo(ß' + i + ')"><div class="slide-image" style="background-image:url(' + slides[i] 
                 + ')"></div></div>';
         }
         html += '</div><div class="dots">';
