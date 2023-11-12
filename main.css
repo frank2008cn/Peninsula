@@ -255,6 +255,7 @@ a {
   #event {
     margin: 0 -12px;
   }
+
 }
 
 .footer {
@@ -482,4 +483,27 @@ a {
 .avatar-14 {
   background: url(https://i.ibb.co/y6sbNBR/28c57756c2565b287584d59a3b06cf9e.jpg) 65% 40% no-repeat;
   background-size: 170%;
+}
+
+
+@media(max-width:640px) {
+
+  .member {
+    display:block;
+  }
+  .card {
+    width: auto;
+  }
+
+  .member-2 .card {
+    width: auto;
+    aspect-ratio: auto;
+  }
+
+  .member-2 .avatar {
+    width: auto;
+    padding-bottom: 120%;
+    float: none;
+    margin: 0;
+  }
 }
