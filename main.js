@@ -3,13 +3,23 @@
     var slides = [        
         "https://i.ibb.co/y6sbNBR/28c57756c2565b287584d59a3b06cf9e.jpg",
         "https://i.ibb.co/dk3WjxT/IMG-1080.jpg",
+        "https://i.ibb.co/PzCY9zP/35f5c531cf48b232961160e57c1b5606.jpg",
         "https://i.ibb.co/2nZDxYg/IMG-1225.jpg",
         "https://i.ibb.co/ngRnnWM/IMG-6280.jpg",        
         "https://i.ibb.co/fvJMjL8/IMG-6277.jpg",
+        "https://i.ibb.co/Fwz2J4V/8f64eac9e840975f89d8828e4d8c7eb8.jpg",
         "https://i.ibb.co/zPJxxB8/IMG-6286.jpg",
         "https://i.ibb.co/SxbG1k8/IMG-5421.jpg",
         "https://i.ibb.co/gt4xLy9/IMG-1156.jpg",
-        "https://i.ibb.co/9qkwZtQ/IMG-4897.jpg"
+        "https://i.ibb.co/9qkwZtQ/IMG-4897.jpg",
+        "https://i.ibb.co/N6VXqtr/Image-20231120231904.jpg",
+        "https://i.ibb.co/8zRkJhX/Image-20231120232956.jpg",
+        "https://i.ibb.co/KLyXWb9/Image-20231120233035.jpg",
+        "https://i.ibb.co/wLS0p7n/Image-20231120233044.jpg",
+        "https://i.ibb.co/DQsdKQm/Image-20231120234116.jpg",
+        "https://i.ibb.co/tL3Q809/IMG-1621.jpg",
+        "https://i.ibb.co/tL3Q809/IMG-1621.jpg",
+        "https://i.ibb.co/vPWfVQ0/IMG-1624.jpg",    
     ];
 
     var current = 0;
@@ -101,3 +111,4 @@
         links.style.display = links.style.display != "block" ? "block" : "none";
       }
 })();
+

@@ -68,6 +68,7 @@ a {
 
 .content-section {
   padding-bottom: 40px;
+  overflow: hidden;
 }
 
 .content-section h2 {
@@ -393,13 +394,21 @@ a {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 2px 30px rgba(0,0,0,.3);
-  max-width: 420px;
+  max-width: 500px;
 }
 
 .card p {
-  padding: 10px 0;
+  padding: 12px 16px;
   font-weight: normal;
   line-height: 32px;
+  margin: 0;
+}
+
+.card p.intro {
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.4;
+  padding-bottom: 20px;
 }
 
 .avatar {
@@ -408,7 +417,7 @@ a {
 }
 
 .member-2 .card {
-  width: 82%;
+  width: 92%;
   max-width: none;
   margin: 10px auto 60px;
   aspect-ratio: 2;
@@ -468,7 +477,7 @@ a {
 
 .avatar-13 {
   background: url(https://i.ibb.co/vjvHTrK/Isaac.jpg) 50% 50% no-repeat;
-  background-size: 112%;
+  background-size: 125%;
 }
 .avatar-12 {
   background: url(https://i.ibb.co/9YnWsd4/James.jpg) 50% 50% no-repeat;
@@ -477,14 +486,28 @@ a {
 
 .avatar-11 {
   background: url(https://i.ibb.co/Jk9r2Sn/Jonathan.png) 50% 50% no-repeat;
-  background-size: 130%;
+  background-size: 135%;
 }
 
 .avatar-14 {
   background: url(https://i.ibb.co/y6sbNBR/28c57756c2565b287584d59a3b06cf9e.jpg) 65% 40% no-repeat;
-  background-size: 170%;
+  background-size: 180%;
 }
 
+.avatar-15 {
+  background: url(https://i.ibb.co/jWd5wxt/Allen.jpg) 58% 40% no-repeat;
+  background-size: 200%;
+}
+
+.avatar-16 {
+  background: url(https://i.ibb.co/VDmCYGH/Coach-Marty.jpg) 50% 20% no-repeat;
+  background-size: 180%;
+}
+
+.avatar-17 {
+  background: url(https://i.ibb.co/F7yrsRk/Coach-Mike.jpg) 30% 50% no-repeat;
+  background-size: 400%;
+}
 
 @media(max-width:640px) {
 
@@ -506,4 +529,14 @@ a {
     float: none;
     margin: 0;
   }
+}
+
+.donation {
+  padding: 12px 32px;
+  border-radius: 40px;
+  font-weight: bold;
+  border: none;
+  background: #ffbd5d;
+  line-height: 32px;
+  font-size: 24px;
 }
