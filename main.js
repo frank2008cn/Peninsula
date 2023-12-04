@@ -18,7 +18,6 @@
         "https://i.ibb.co/wLS0p7n/Image-20231120233044.jpg",
         "https://i.ibb.co/DQsdKQm/Image-20231120234116.jpg",
         "https://i.ibb.co/tL3Q809/IMG-1621.jpg",
-        "https://i.ibb.co/tL3Q809/IMG-1621.jpg",
         "https://i.ibb.co/vPWfVQ0/IMG-1624.jpg",    
     ];
 
