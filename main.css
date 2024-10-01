@@ -509,6 +509,24 @@ a {
   background-size: 400%;
 }
 
+.avatar-19 {
+  background: url(https://i.ibb.co/Gp7fTtf/Owen.jpg) 30% 0% no-repeat;
+  background-size: 150%;
+}
+
+.avatar-20 {
+  background: url(https://i.ibb.co/nM4PXWx/Austin.jpg) 100% 10% no-repeat;
+  background-size: 200%;
+}
+
+.avatar-21 {
+  background: url(https://i.ibb.co/R0MjzzT/Aevin.jpg) 0% 30% no-repeat;
+  background-size: 200%;
+}
+
+
+
+
 @media(max-width:640px) {
 
   .member {

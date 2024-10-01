@@ -1,25 +1,27 @@
 (function() {
     // image slideshow
-    var slides = [        
+    var slides = [                
+        "https://i.ibb.co/V9h2Df4/Benjamin-Sean-and-Austin-082024.jpg",    
+        "https://i.ibb.co/yfvxRDH/Copy-of-18a7350e4575207569591f5914653e03.jpg",
+        "https://i.ibb.co/9GW0ggn/Copy-of-Image-20231120234034.jpg",
+        "https://i.ibb.co/17xj319/Copy-of-IMG-1080.jpg",
+        "https://i.ibb.co/wcHwbnL/Copy-of-IMG-1089.jpg",
+        "https://i.ibb.co/XX6C6wn/Copy-of-IMG-1161.jpg",
+        "https://i.ibb.co/5xrn8W9/Copy-of-IMG-5676.jpg",
+        "https://i.ibb.co/941cg7f/Copy-of-IMG-6274.jpg",
+        "https://i.ibb.co/bvDpW6W/Image-20240528160655.jpg",
+        "https://i.ibb.co/M6Jm2XJ/Image-20240528160706.jpg",
+        "https://i.ibb.co/280Kk8k/IMG-5255.jpg",
+        "https://i.ibb.co/XJvp7Ds/Owen-and-Isaac-082024.jpg",
+        "https://i.ibb.co/T4M7gL2/Pre-K-card-2024.jpg",
         "https://i.ibb.co/y6sbNBR/28c57756c2565b287584d59a3b06cf9e.jpg",
         "https://i.ibb.co/dk3WjxT/IMG-1080.jpg",
-        "https://i.ibb.co/PzCY9zP/35f5c531cf48b232961160e57c1b5606.jpg",
-        "https://i.ibb.co/2nZDxYg/IMG-1225.jpg",
         "https://i.ibb.co/ngRnnWM/IMG-6280.jpg",        
-        "https://i.ibb.co/fvJMjL8/IMG-6277.jpg",
-        "https://i.ibb.co/Fwz2J4V/8f64eac9e840975f89d8828e4d8c7eb8.jpg",
         "https://i.ibb.co/zPJxxB8/IMG-6286.jpg",
         "https://i.ibb.co/SxbG1k8/IMG-5421.jpg",
-        "https://i.ibb.co/gt4xLy9/IMG-1156.jpg",
-        "https://i.ibb.co/9qkwZtQ/IMG-4897.jpg",
-        "https://i.ibb.co/N6VXqtr/Image-20231120231904.jpg",
-        "https://i.ibb.co/8zRkJhX/Image-20231120232956.jpg",
-        "https://i.ibb.co/KLyXWb9/Image-20231120233035.jpg",
-        "https://i.ibb.co/wLS0p7n/Image-20231120233044.jpg",
-        "https://i.ibb.co/DQsdKQm/Image-20231120234116.jpg",
-        "https://i.ibb.co/tL3Q809/IMG-1621.jpg",
-        "https://i.ibb.co/vPWfVQ0/IMG-1624.jpg",    
+        "https://i.ibb.co/gt4xLy9/IMG-1156.jpg"
     ];
+
 
     var current = 0;
     var timer = null;
