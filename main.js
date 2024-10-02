@@ -1,11 +1,12 @@
 (function() {
     // image slideshow
-    var slides = [                
-        "https://i.ibb.co/V9h2Df4/Benjamin-Sean-and-Austin-082024.jpg",    
+    var slides = [        
+        "https://i.ibb.co/y6sbNBR/28c57756c2565b287584d59a3b06cf9e.jpg",                  
         "https://i.ibb.co/yfvxRDH/Copy-of-18a7350e4575207569591f5914653e03.jpg",
         "https://i.ibb.co/9GW0ggn/Copy-of-Image-20231120234034.jpg",
         "https://i.ibb.co/17xj319/Copy-of-IMG-1080.jpg",
         "https://i.ibb.co/wcHwbnL/Copy-of-IMG-1089.jpg",
+        "https://i.ibb.co/V9h2Df4/Benjamin-Sean-and-Austin-082024.jpg",  
         "https://i.ibb.co/XX6C6wn/Copy-of-IMG-1161.jpg",
         "https://i.ibb.co/5xrn8W9/Copy-of-IMG-5676.jpg",
         "https://i.ibb.co/941cg7f/Copy-of-IMG-6274.jpg",
@@ -13,8 +14,7 @@
         "https://i.ibb.co/M6Jm2XJ/Image-20240528160706.jpg",
         "https://i.ibb.co/280Kk8k/IMG-5255.jpg",
         "https://i.ibb.co/XJvp7Ds/Owen-and-Isaac-082024.jpg",
-        "https://i.ibb.co/T4M7gL2/Pre-K-card-2024.jpg",
-        "https://i.ibb.co/y6sbNBR/28c57756c2565b287584d59a3b06cf9e.jpg",
+        "https://i.ibb.co/T4M7gL2/Pre-K-card-2024.jpg",        
         "https://i.ibb.co/dk3WjxT/IMG-1080.jpg",
         "https://i.ibb.co/ngRnnWM/IMG-6280.jpg",        
         "https://i.ibb.co/zPJxxB8/IMG-6286.jpg",
